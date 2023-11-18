@@ -1,0 +1,2 @@
+#!/bin/sh
+cat template | tr -d '\n'  | sed -E 's/ {2,}//g'  | sed -e 's/{{-/{{/g' -e 's/-}}/}}/g'

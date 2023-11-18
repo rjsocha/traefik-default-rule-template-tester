@@ -1,0 +1,4 @@
+name: "example"
+containerName: "nginx"
+labels:
+  wyga.expose: example.wyga.site, wildcard*.wyga.site, simple, hello*
