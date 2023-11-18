@@ -1,6 +1,6 @@
 module github.com/rjsocha/traefik-default-rule-template-tester/v2
 
-go 1.21.3
+go 1.20
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.3
